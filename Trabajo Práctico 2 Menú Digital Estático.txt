@@ -1,0 +1,53 @@
+🎯 Objetivo
+Crear una página web simple que muestre el menú de un restaurante ficticio.
+
+📝 Contenido sugerido
+La página debe mostrar:
+
+Nombre del restaurante
+
+3 o 4 platos con:
+
+Nombre del plato
+
+Imagen ilustrativa
+
+Breve descripción
+
+Precio
+
+🔧 Requisitos técnicos
+HTML estructurado con:
+
+<h1>, <h2>, <p>, <img>, <ul> y <li>
+
+CSS externo con:
+
+Fondo de color
+
+Tamaños de fuente
+
+Estilo de bordes o separación entre platos
+
+Colores coherentes
+
+Sin Flexbox ni Grid
+
+🧪 Desafíos opcionales
+Agregar una sección de postres o bebidas
+
+Incluir enlaces con mailto: o tel:
+
+💻 Git + GitHub
+Crear repositorio menu-digital
+
+Clonar y trabajar localmente
+
+Hacer commits organizados
+
+Subir y publicar con GitHub Pages
+
+✅ Entrega
+Link al repositorio
+
+Link a GitHub Pages
