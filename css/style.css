@@ -3,61 +3,85 @@
     margin: 0px;
 }
 body{
-    background-color: #faf8e6;  /*beigeClaro...*/
-    font-family: "Playfair", serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    background-color: #faf8e6;  /* ...beigeClaro... */
 }
 header{
-    background-color: #543319;  /*marronOscuro...*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    box-sizing: border-box;  /* ...Asegura que el padding no afecte al ancho total... */
+    background-color: #543319;  /* ...marronOscuro... */
+    width: 100%;
+    display: flex;  /* ...Activa Flexbox... */
+    justify-content: space-between; /* ...Separa los elementos a los extremos... */
+    align-items: center;  /* ...Centra los elementos verticalmente... */
+    padding: 1rem 2rem;  /* ...Espaciado interno opcional... */
 }
-footer {
-    background-color: #543319;  /*marronOscuro...*/
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-nav > a{
-    font-size: 0.9rem;
-}
-ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+footer{
+    background-color: #543319;  /* ...marronOscuro... */
 }
 h1 {
-    font-size: 3rem;
-    color: #faf8e6;  /*beigeClaro...*/
+    color: #faf8e6;  /* ...beigeClaro... */
+    font-family: "Space Grotesk", sans-serif;
+}
+.posicionIzq{
+    width: 47.5%;
+    margin-right: auto;
+}
+.posicionDer{
+    width: 47.5%;
+    margin-left: auto;
 }
 h2 {
-    font-size: 1.5rem;
-    color: #543319;  /*marronOscuro...*/
+    color: #543319;  /* ...marronOscuro... */
+    font-family: "Space Grotesk", sans-serif;
+    padding: 0.5rem 0rem 0.5rem 1.5rem;
+    font-size: xxx-large;
 }
-p {
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif
+p{
+    font-family: Inter, sans-serif;
+    font-size: x-large;
 }
-.precio{
-    color: #543319;  /*marronOscuro...*/
-    font-size: 1.2rem;
+.precioIzq{
+    color: #543319;  /* ...marronOscuro...*/
+    padding: 0.5rem 1.5rem 0.5rem 0rem;
+    text-align: start;
 }
-.descripcionPorductos{
-    color: #4a4a4a /*grisOscuro...*/
+.precioDer{
+    color: #543319;  /* ...marronOscuro...*/
+    padding: 0.5rem 1.5rem 0.5rem 0rem;
+    text-align: end;
 }
-.playfair {  /*h1 y h2...*/
-  font-family: "Playfair", serif;
-  font-optical-sizing: auto;
-  font-weight: 400px;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.descripcionProductos{
+    color: #4a4a4a;  /* ...grisOscuro...*/
+    padding: 0.5rem 0rem 0.5rem 1.5rem;
+}
+ul{
+    list-style: none;  /* ...Eliminar viñetas... */
 }
 img{
-    width: 300px;
+    width: 90%;
     height: auto;
+    border-radius: 1.2rem;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+div > h2{
+    color: #faf8e6;  /* ...beigeClaro...*/
+    font-size: xx-large;
+}
+nav{
+    display: flex;  /* ...Activa Flexbox... */
+    gap: 1.5rem; /* ...Ajusta el espacio entre los enlaces... */
+}
+a{
+    text-decoration: none;
+    color: #faf8e6;  /* ...beigeClaro... */
+    font-family: "IBM Plex Mono", monospace;
+}
+.sectionPie > div{
+    display: flex;  /* ...Activa Flexbox... */
+    gap: 1.5rem; /* ...Ajusta el espacio entre los enlaces... */
+    align-items: center; /* ...Centra los elementos verticalmente... */
+}
+.sectionPie{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;  /* ...Espaciado interno... */
 }
